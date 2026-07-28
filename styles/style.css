@@ -152,7 +152,6 @@
   transition: box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
-  transition: 0.5s ease-in-out;
 }
 
 .button:focus {
@@ -178,7 +177,6 @@
 
 .card__like-button {
   border: var(--black-color) solid 2px;
-  /* padding: 12.5px 37px; */
   min-width: 130px;
   min-height: 38px;
 }
@@ -192,6 +190,7 @@
   z-index: 2;
   mix-blend-mode: difference;
   color: var(--white-color);
+  white-space: nowrap;
 }
 
 .card__icon-button {
@@ -300,10 +299,6 @@
   z-index: 2;
   color: var(--white-color);
   mix-blend-mode: difference;
-}
-
-.button__text {
-  white-space: nowrap;
 }
 
 .dialog {
